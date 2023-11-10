@@ -1,0 +1,14 @@
+﻿<Window x:Class="_31._10._2023_Two_Forms.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_31._10._2023_Two_Forms"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Label Content="А это второе окно" HorizontalAlignment="Center" Margin="0,112,0,0" VerticalAlignment="Top"/>
+        <Button Content="Перейти на 1 окно" HorizontalAlignment="Center" VerticalAlignment="Center" Height="72" Width="250" Click="Button_Click"/>
+
+    </Grid>
+</Window>
